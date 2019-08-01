@@ -8,7 +8,7 @@ const cors=require("cors")
 const User = require('./models/users.js')
 const Task = require('./models/tasks.js')
  
-mongoose.connect('mongodb+srv://adika:193752468@jc9-cluster-gjphn.mongodb.net/jc9-cluster?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://adika:193752468@jc9-cluster-gjphn.mongodb.net/jc9-mongoose?retryWrites=true&w=majority', {
     // Parser string URL
     useNewUrlParser: true,
 
