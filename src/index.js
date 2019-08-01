@@ -18,7 +18,7 @@ mongoose.connect('mongodb+srv://adika:193752468@jc9-cluster-gjphn.mongodb.net/jc
 })
 
 const app = express()
-let port = process.env.port||2019
+const port = process.env.PORT||2019
 
 app.use(cors())
 
